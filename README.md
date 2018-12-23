@@ -1,1 +1,1 @@
-# apps-sipu
+# Mobile Apps SIPU
