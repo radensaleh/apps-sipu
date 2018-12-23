@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--index-->
+    <style name="AppThemeIndex" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorLightBrown</item>
+        <item name="colorPrimaryDark">@color/colorLightBrown</item>
+        <item name="colorAccent">@color/colorLightBrown</item>
+    </style>
+
+    <!--login-->
+    <style name="AppThemeLogin" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#6289ff</item>
+        <item name="colorPrimaryDark">#6289ff</item>
+        <item name="colorAccent">#6289ff</item>
+    </style>
+
+    <!--Register-->
+    <style name="AppThemeRegister" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#db0000</item>
+        <item name="colorPrimaryDark">#db0000</item>
+        <item name="colorAccent">#db0000</item>
+    </style>
+
+    <!--Dashboard-->
+    <style name="AppThemeDashboard" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorLightOrange</item>
+        <item name="colorPrimaryDark">@color/colorLightOrange</item>
+        <item name="colorAccent">@color/colorLightOrange</item>
+    </style>
+
+    <!--Daftar UKM-->
+    <style name="AppThemeDaftarUkm" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorLightGreen</item>
+        <item name="colorPrimaryDark">@color/colorLightGreen</item>
+        <item name="colorAccent">@color/colorLightGreen</item>
+    </style>
+
+    <!--Daftar UKM-->
+    <style name="AppThemeProfile" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#0bcce6</item>
+        <item name="colorPrimaryDark">#0bcce6</item>
+        <item name="colorAccent">#0bcce6</item>
+    </style>
+
+</resources>

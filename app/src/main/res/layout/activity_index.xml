@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLightBrown"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".IndexActivity">
+
+    <ImageView
+        android:layout_marginTop="50sp"
+        android:id="@+id/img"
+        android:src="@drawable/logo_sipu"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:id="@+id/txtindex"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELAMAT DATANG"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/txtdesc"
+        android:textColor="#fff"
+        android:layout_width="330sp"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:text=" '' [SIPU] adalah aplikasi yang dibuat untuk mempermudah mahasiswa untuk mengetahui informasi tentang UKM dan melakukan pendaftaran UKM yang ada di Politeknik Negeri Indramayu ''"
+        android:fontFamily="casual"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/txthastag"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:text=" #sipupolindra "
+        android:textStyle="italic"
+        android:background="@color/colorTransparantWhite"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:drawableLeft="@drawable/ic_navigate_next_white_24dp"
+        android:id="@+id/btnLanjut"
+        android:layout_marginTop="15dp"
+        android:layout_width="110sp"
+        android:layout_height="45sp"
+        android:text="Let's Go"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/rec_gradient_lanjut"/>
+
+</LinearLayout>

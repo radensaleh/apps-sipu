@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:orientation="vertical"
+    android:background="#fafafa">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="310dp">
+        
+        <LinearLayout
+            android:background="@drawable/background_gradient_profile"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgProfile"
+                android:layout_marginTop="55dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/boy"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:id="@+id/txtnama"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raden Muhammad Saleh Idris"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:id="@+id/txtemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="m.salehidris13@gmail.com"
+                android:textColor="@color/colorWhite"
+                android:textSize="15sp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+        
+        <android.support.v7.widget.CardView
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="220dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:id="@+id/LLnim"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:drawableLeft="@drawable/ic_credit_card_lightblue_24dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"/>
+                    <TextView
+                        android:id="@+id/txtnim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1705013"
+                        android:textStyle="bold"
+                        android:paddingTop="10sp"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LLprodi"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:drawableLeft="@drawable/ic_school_lightblue_24dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:textSize="15sp"/>
+                    <TextView
+                        android:id="@+id/txtprodi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="D4RPL"
+                        android:textStyle="bold"
+                        android:paddingTop="10sp"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/LLinfo"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/background_white"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="265dp">
+
+
+        <LinearLayout
+            android:id="@+id/LLnohp"
+            android:padding="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_phone_iphone_lightblue_24dp" />
+            <TextView
+                android:id="@+id/txtnohp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:textSize="15sp"
+                android:text="08973123123"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LLalamat"
+            android:padding="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_place_lightblue_24dp" />
+            <TextView
+                android:id="@+id/txtadds"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:textSize="15sp"
+                android:text="DS. Kepongpongan Rt. 04 Rw. 01 Kecamatan Talun, Kabupaten Cirebon asdadsadsasdasdasdasdasdasd"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnEditInfo"
+            android:textColor="#FFF"
+            android:background="@drawable/rec_gradient_lightblue"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false"
+            android:text="EDIT INFO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <!--<Button-->
+        <!--android:layout_width="130dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:text="Edit Info"-->
+        <!--style="@style/Widget.AppCompat.Button.Colored"-->
+        <!--android:layout_marginTop="20dp"/>-->
+</LinearLayout>

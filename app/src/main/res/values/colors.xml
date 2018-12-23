@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorTransparantWhite">#c9c9c9c9</color>
+    <color name="colorWhite">#ffffff</color>
+
+    <color name="colorLightBrown">#fab387</color>
+
+    <color name="colorLightOrange">#ffb62f</color>
+
+    <color name="colorLightGreen">#00e572</color>
+
+    <color name="colorKompa1">#373723</color>
+    <color name="colorKompa2">#2c2c1c</color>
+
+    <color name="colorKopen1">#EF5555</color>
+    <color name="colorKopen2">#bf4444</color>
+
+    <color name="colorRpi1">#6e3159</color>
+    <color name="colorRpi2">#582747</color>
+
+    <color name="colorPopi1">#16B415</color>
+    <color name="colorPopi2">#119010</color>
+
+    <color name="colorFolafo1">#01BCD4</color>
+    <color name="colorFolafo2">#0096A9</color>
+</resources>
